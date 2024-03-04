@@ -1,9 +1,9 @@
 # ProteoML
 A desktop application to uncover post-translational modifications specific to a particular enzyme via automated machine learning.
 
-[The official first release of ProteoML is available here!](https://drive.google.com/drive/folders/1mHq_pax3cmE8TjYhMQWnugDU5n-dTsLQ?usp=sharing)
+[The official first release of ProteoML is available here!](https://drive.google.com/file/d/1VjfCuakakgERyORhppJJJnmY_lo6XD_k/view?usp=share_link)
 
-You can find the accompanying application, [ProteoML Visualizer here.]()
+You can find the accompanying application, [ProteoML Visualizer here.](https://drive.google.com/file/d/15xgJb9R6j8rf16YygHi8uPHrfKou0fZ8/view?usp=share_link)
 
 
 
