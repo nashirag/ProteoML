@@ -101,7 +101,7 @@ Result dataset containing the last scored experimental file by the ML model.
 
 ##
 
-## ProteoML Visualizer
+# ProteoML Visualizer
 
 This application was created to visualize ProteoML predictions, or any other collection of proteins within a network of protein-protein interactions. 
 
