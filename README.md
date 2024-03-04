@@ -30,6 +30,7 @@ After experimentally determining peptide sites that obtain PTMs from your enzyme
 **NOTE:** If you mis-enter information here (i.e. mix up column headings), or your data is not of the correct format, the program may give you an error message, or exit prematurely. Please ensure that your data somewhat resembles that in Figure 1 (headings can vary, and only Protein ID, AA Sequence, and Experimental columns absolutely required). 
 
 ![Screenshot of a table.](/assets/scrngrb_file.png)
+
 **Figure 1.** Example dataset for upload into ProteoML. UNI_ID column contains Uniprot ID, SITE_LOC contains the site location of the central lysine within the full length protein, SITE_+/-7_AA depicts the peptide sequence representative of the site, and EXPERIMENTALLY_ACTIVE holds the binary values of the experimental results for the enzyme tested. Secondary ML predictor scores (i.e. Musite Deep, MethylSight) are listed within the SECONDARY_ML_SCORE column, and DSET contains the distinction for the validation set to test the ensemble ML model with. 
 
 ##
