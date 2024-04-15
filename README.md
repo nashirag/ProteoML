@@ -1,10 +1,20 @@
 # ProteoML
 A desktop application to uncover post-translational modifications specific to a particular enzyme via automated machine learning.
 
-[The official first release of ProteoML is available here!](https://drive.google.com/file/d/1W2XYH2o0E6zthceRtHpZ0XxRDiRvtWzE/view?usp=share_link)
+[ProteoML is available here!](https://drive.google.com/file/d/14x9O8ZiDRejMkAVxx-PgE71Nxkvgtgdg/view?usp=share_link)
 
 You can find the accompanying application, [ProteoML Visualizer here.](https://drive.google.com/file/d/1KF31HU1NzGKHyO8b_0nECHdwLd5cHAoM/view?usp=share_link)
 
+## Installation Guide - Mac OSX (tested on Sonoma 14.2 and up)
+[Download the compressed ProteoML application file here.](https://drive.google.com/file/d/14x9O8ZiDRejMkAVxx-PgE71Nxkvgtgdg/view?usp=share_link)
+
+After unzipping the file, move it to your applications folder, then open it. It is likely that OSX security permissions will not allow you to open the file without some extra steps, as found [here](https://support.apple.com/en-ca/102445).
+
+_NOTE: ProteoML will not damage your computer, and contains no malware. This alert is due to the refusal of all applications created by those without a developer account (a fee-based program)._
+
+To subvert this warning, go to the Privacy & Security section of System Settings. For one hour after your attempt to open ProteoML, you will see a new option under the Security option stating that _'"ProteoML" was blocked from use because it is not from an identified developer.'_ Click "Open Anyway" to initiate a secondary popup stating that _'"ProteoML" can't be opened because Apple cannot check it for malicious software.'_ Click "Open" and _voila_!
+
+If you instead get a popup stating that ProteoML is damaged, delete the application and attempt the install once again. [OSX will deem any application as "damaged" if the security permissions fail to be appropriately handled]((https://support.apple.com/en-ca/102445)). 
 
 
 ## 1 – Download Peptide List
