@@ -14,7 +14,7 @@ _NOTE: ProteoML will not damage your computer, and contains no malware. This ale
 
 To subvert this warning, go to the Privacy & Security section of System Settings. For one hour after your attempt to open ProteoML, you will see a new option under the Security option stating that _'"ProteoML" was blocked from use because it is not from an identified developer.'_ Click "Open Anyway" to initiate a secondary popup stating that _'"ProteoML" can't be opened because Apple cannot check it for malicious software.'_ Click "Open" and _voila_!
 
-If you instead get a popup stating that ProteoML is damaged, delete the application and attempt the install once again. [OSX will deem any application as "damaged" if the security permissions fail to be appropriately handled]((https://support.apple.com/en-ca/102445)). 
+If you instead get a popup stating that ProteoML is damaged, delete the application and attempt the install once again. [OSX will deem any application as "damaged" if the security permissions fail to be appropriately handled](https://support.apple.com/en-ca/102445). 
 
 
 ## 1 – Download Peptide List
