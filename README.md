@@ -17,6 +17,9 @@ To subvert this warning, go to the Privacy & Security section of System Settings
 If you instead get a popup stating that ProteoML is damaged, delete the application and attempt the install once again. [OSX will deem any application as "damaged" if the security permissions fail to be appropriately handled](https://support.apple.com/en-ca/102445). 
 
 
+##
+
+
 ## 1 – Download Peptide List
 This tab allows the user to select and download files specific to a PTM of interest. 
 
