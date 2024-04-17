@@ -1,12 +1,12 @@
 # ProteoML
 A desktop application to uncover post-translational modifications specific to a particular enzyme via automated machine learning.
 
-ProteoML is available [here for mac](https://drive.google.com/file/d/14x9O8ZiDRejMkAVxx-PgE71Nxkvgtgdg/view?usp=share_link) and [here for PC!](https://drive.google.com/file/d/1R_sth_UdITcKrPxIyMX80K4e0fx0iPGv/view?usp=sharing)
+ProteoML is available [here for mac](https://drive.google.com/file/d/14z-RbkTZDaD6EShj9_ObrBQwLnWY5Lpu/view?usp=share_link) and [here for PC!](https://drive.google.com/file/d/1R_sth_UdITcKrPxIyMX80K4e0fx0iPGv/view?usp=sharing)
 
 You can find the accompanying application, [ProteoML Visualizer here.](https://drive.google.com/file/d/1KF31HU1NzGKHyO8b_0nECHdwLd5cHAoM/view?usp=share_link)
 
 ## Installation Guide - Mac OSX (tested on Sonoma 14.2 and up)
-[Download the compressed ProteoML application file here.](https://drive.google.com/file/d/14x9O8ZiDRejMkAVxx-PgE71Nxkvgtgdg/view?usp=share_link)
+[Download the compressed ProteoML application file here.](https://drive.google.com/file/d/14z-RbkTZDaD6EShj9_ObrBQwLnWY5Lpu/view?usp=share_link)
 
 After unzipping the file, move it to your applications folder, then open it. It is likely that OSX security permissions will not allow you to open the file without some extra steps, as found [here](https://support.apple.com/en-ca/102445).
 
