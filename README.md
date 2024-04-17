@@ -1,9 +1,9 @@
 # ProteoML
 A desktop application to uncover post-translational modifications specific to a particular enzyme via automated machine learning.
 
-ProteoML is available [here for mac](https://drive.google.com/file/d/14z-RbkTZDaD6EShj9_ObrBQwLnWY5Lpu/view?usp=share_link) and [here for PC!](https://drive.google.com/file/d/1R_sth_UdITcKrPxIyMX80K4e0fx0iPGv/view?usp=sharing)
+ProteoML is available [here for mac](https://drive.google.com/file/d/14z-RbkTZDaD6EShj9_ObrBQwLnWY5Lpu/view?usp=share_link) and [here for PC!](https://www.dropbox.com/scl/fi/5ch9oqy0b7j5z4ronf4kp/ProteoML_Installer.exe?rlkey=v6xvilv5acr31rl8brzcaagkl&dl=0)
 
-You can find the accompanying application, [ProteoML Visualizer here.](https://drive.google.com/file/d/1KF31HU1NzGKHyO8b_0nECHdwLd5cHAoM/view?usp=share_link)
+You can find the accompanying application, [ProteoML Visualizer for Mac OS here.](https://drive.google.com/file/d/1KF31HU1NzGKHyO8b_0nECHdwLd5cHAoM/view?usp=share_link)
 
 ## Installation Guide - Mac OSX (tested on Sonoma 14.2 and up)
 [Download the compressed ProteoML application file here.](https://drive.google.com/file/d/14z-RbkTZDaD6EShj9_ObrBQwLnWY5Lpu/view?usp=share_link)
@@ -18,7 +18,7 @@ If you instead get a popup stating that ProteoML is damaged, delete the applicat
 
 
 ## Installation Guide - Windows 32-bit (tested on Windows 10 64-bit)
-[Download the ProteoML installer here.](https://drive.google.com/file/d/1R_sth_UdITcKrPxIyMX80K4e0fx0iPGv/view?usp=sharing)
+[Download the ProteoML installer here.](https://www.dropbox.com/scl/fi/5ch9oqy0b7j5z4ronf4kp/ProteoML_Installer.exe?rlkey=v6xvilv5acr31rl8brzcaagkl&dl=0)
 
 You will get a popup with the header _"Windows protected your PC"_ - click the underlined _"More Info"_ to allow a secondary _"Run anyway"_ button. Click this button to initiate the installer window - select _"Yes"_ once it asks you _"Do you want to allow this app from an unknown publisher to make changes to your device?"_ This will initiate the installer wizard. 
 
