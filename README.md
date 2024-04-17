@@ -1,7 +1,7 @@
 # ProteoML
 A desktop application to uncover post-translational modifications specific to a particular enzyme via automated machine learning.
 
-[ProteoML is available here!](https://drive.google.com/file/d/14x9O8ZiDRejMkAVxx-PgE71Nxkvgtgdg/view?usp=share_link)
+ProteoML is available [here for mac](https://drive.google.com/file/d/14x9O8ZiDRejMkAVxx-PgE71Nxkvgtgdg/view?usp=share_link) and [here for PC!](https://drive.google.com/file/d/1R_sth_UdITcKrPxIyMX80K4e0fx0iPGv/view?usp=sharing)
 
 You can find the accompanying application, [ProteoML Visualizer here.](https://drive.google.com/file/d/1KF31HU1NzGKHyO8b_0nECHdwLd5cHAoM/view?usp=share_link)
 
@@ -17,8 +17,14 @@ To subvert this warning, go to the Privacy & Security section of System Settings
 If you instead get a popup stating that ProteoML is damaged, delete the application and attempt the install once again. [OSX will deem any application as "damaged" if the security permissions fail to be appropriately handled](https://support.apple.com/en-ca/102445). 
 
 
-##
+## Installation Guide - Windows 32-bit (tested on Windows 10 64-bit)
+[Download the ProteoML installer here.](https://drive.google.com/file/d/1R_sth_UdITcKrPxIyMX80K4e0fx0iPGv/view?usp=sharing)
 
+You will get a popup with the header _"Windows protected your PC"_ - click the underlined _"More Info"_ to allow a secondary _"Run anyway"_ button. Click this button to initiate the installer window - select _"Yes"_ once it asks you _"Do you want to allow this app from an unknown publisher to make changes to your device?"_ This will initiate the installer wizard. 
+
+Follow the steps to install ProteoML locally, and _voila!_
+
+##
 
 ## 1 – Download Peptide List
 This tab allows the user to select and download files specific to a PTM of interest. 
