@@ -1,16 +1,16 @@
 # ProteoML
 A desktop application to uncover post-translational modifications specific to a particular enzyme via automated machine learning.
 
-ProteoML is available [here for mac](https://drive.google.com/file/d/14z-RbkTZDaD6EShj9_ObrBQwLnWY5Lpu/view?usp=share_link) and [here for PC!](https://www.dropbox.com/scl/fi/5ch9oqy0b7j5z4ronf4kp/ProteoML_Installer.exe?rlkey=v6xvilv5acr31rl8brzcaagkl&dl=0)
+ProteoML is available [here for mac](https://www.dropbox.com/scl/fi/9mgg06jtno5qfjkm8r4pa/ProteoML.zip?rlkey=k67vyt50m0uvphslkh84y8rim&st=n2tip27c&dl=0) and [here for PC.](https://www.dropbox.com/scl/fi/910sxchjl991p6wtrb56k/ProteoML.exe?rlkey=yic9evsiczmt9glt4gdfcgilb&st=sq5zyy8l&dl=0)
 
-You can find the accompanying application, [ProteoML Visualizer for Mac OS here.](https://drive.google.com/file/d/1KF31HU1NzGKHyO8b_0nECHdwLd5cHAoM/view?usp=share_link)
+You can find the accompanying application, [ProteoML Visualizer for Mac OS here](https://www.dropbox.com/scl/fi/fizufv8pros0brn608zaj/ProteoML-Visualizer.zip?rlkey=7eoakpih8dtizoc19dl58mydg&st=5hemuxp9&dl=0), and [here for PC.](https://www.dropbox.com/scl/fi/2no14kot7r41ynpn5nx7n/ProteoML-Visualizer.exe?rlkey=ybh0eaa2stkavrssaspn4y5lx&st=s73h81jt&dl=0)
 
 ## Installation Guide - Mac OSX (tested on Sonoma 14.2 and up)
-[Download the compressed ProteoML application file here.](https://drive.google.com/file/d/14z-RbkTZDaD6EShj9_ObrBQwLnWY5Lpu/view?usp=share_link)
+[Download the compressed ProteoML application file here.](https://www.dropbox.com/scl/fi/9mgg06jtno5qfjkm8r4pa/ProteoML.zip?rlkey=k67vyt50m0uvphslkh84y8rim&st=n2tip27c&dl=0)
 
 After unzipping the file, move it to your applications folder, then open it. It is likely that OSX security permissions will not allow you to open the file without some extra steps, as found [here](https://support.apple.com/en-ca/102445).
 
-_NOTE: ProteoML will not damage your computer, and contains no malware. This alert is due to the refusal of all applications created by those without a developer account (a fee-based program)._
+_NOTE: ProteoML will not damage your computer, and contains no malware. This alert is due to the complex nature of signed certificates and recognised developers by apple._
 
 To subvert this warning, go to the Privacy & Security section of System Settings. For one hour after your attempt to open ProteoML, you will see a new option under the Security option stating that _'"ProteoML" was blocked from use because it is not from an identified developer.'_ Click "Open Anyway" to initiate a secondary popup stating that _'"ProteoML" can't be opened because Apple cannot check it for malicious software.'_ Click "Open" and _voila_!
 
@@ -18,13 +18,15 @@ If you instead get a popup stating that ProteoML is damaged, delete the applicat
 
 
 ## Installation Guide - Windows 32-bit (tested on Windows 10 64-bit)
-[Download the ProteoML installer here.](https://www.dropbox.com/scl/fi/5ch9oqy0b7j5z4ronf4kp/ProteoML_Installer.exe?rlkey=v6xvilv5acr31rl8brzcaagkl&dl=0)
+[Download ProteoML here.](https://www.dropbox.com/scl/fi/910sxchjl991p6wtrb56k/ProteoML.exe?rlkey=yic9evsiczmt9glt4gdfcgilb&st=sq5zyy8l&dl=0)
 
 You will get a popup with the header _"Windows protected your PC"_ - click the underlined _"More Info"_ to allow a secondary _"Run anyway"_ button. Click this button to initiate the installer window - select _"Yes"_ once it asks you _"Do you want to allow this app from an unknown publisher to make changes to your device?"_ This will initiate the installer wizard. 
 
 Follow the steps to install ProteoML locally, and _voila!_
 
 ##
+
+**[Click here for the detailed ProteoML user guide](https://drive.google.com/file/d/1llYnZCTImGMA2co5kgAkmhhaf64FGbVo/view?usp=sharing)**
 
 ## 1 – Download Peptide List
 This tab allows the user to select and download files specific to a PTM of interest. 
@@ -43,7 +45,7 @@ After experimentally determining peptide sites that obtain PTMs from your enzyme
 - _AA Sequence:_ Amino acid sequence (i.e. GGARWLKPRTSGA, note central AA is modified AA)
 - _Experimental:_ Binary score indicating enzymatic activity for the peptide tested (1 = activity, 0 = no activity)
 
-**NOTE:** This process may take a while to run, depending on the size of your experimental dataset. An option is to set this up and let it run in the background, or overnight (depending on the size of your feature set!). A dataset of approximately 4,500 sites takes about 1 hour to run.
+**NOTE:** This process may take a while to run, depending on the size of your experimental dataset. An option is to set this up and let it run in the background, or overnight (depending on the size of your feature set!). A dataset of approximately 4,500 sites takes about 1 hour to run (on an intel-based mac).
 
 **NOTE:** To proceed with Meta Learning (tab 4), you must specify a Secondary Score column, containing the scores for each peptide/site within the protein determined by another ML scorer (i.e. MethylSight for kme, or MuSite Deep for 12 types of PTMs). The Validation score is for defining a holdout set specific to the secondary ML predictor. This will likely be unavailable for most secondary ML predictors, but it will ensure that when testing your model you aren’t potentially introducing bias. 
 
@@ -66,7 +68,7 @@ The “Highly Associated GO Terms” table lists the molecular function GO terms
 
 **NOTE:** The model most recently selected for via the auto ML function, or the manual ML and data balancing function is the model used for the Ensemble ML model, and for the Experimental Dataset Scoring. If you want to change the model used in these processes, you will need to either click the “Fit Models and Balance Data – Return Best Fit” button or the “Re-Run Fitting with New Selection” buttons to ensure the new model is initialized before carrying on. This also applies to the selected threshold. If you wish to change the threshold, you must click “Update Metrics” after entering the new value to ensure this new threshold is applied. 
 
-**NOTE:** Model fitting can take a long time, and some steps can seemingly “freeze” the program. Don’t worry if a run takes 30+ minutes, as the program is running complex ML fitting, scoring, and graphing processes in the background. 
+**NOTE:** Model fitting can take a long time, but this latest version of ProteoML allows users to navigate the app with ease while applications are running. 
 
 ##
 
@@ -94,7 +96,7 @@ Regardless of if you’ve selected to use a pre-loaded dataset, reupload, or upl
 
 **NOTE:** If you’ve supplied ProteoML with Secondary Scores in the training dataset, as well as the experimental dataset (indicate the column via the Secondary Score dropdown menu), then you may select the “Meta Machine Learning Model” box. When your scores are output by ProteoML, both the primary/base ML model and secondary ML model scores will be output together with the ensemble ML model score. There is no need to re-run the scoring with the Basic Machine Learning Model to retrieve those scores.
 
-**NOTE:** Regardless of the cutoff score supplied, the primary and/or secondary and ensemble ML scores will be output. The cutoff score defines the Final ML Classification column output in the save file (greater than cutoff = 1, less than = 0). 
+**NOTE:** Regardless of the threshold supplied, the primary and/or secondary and ensemble ML scores will be output. The threshold defines the Final ML Classification column output in the save file (greater than threshold = 1, less than = 0). 
 
 **NOTE:** A pre-uploaded dataset exists of which features have been pre-generated— Surface Exposed Sites – Lysine (MethylSight kme Scoring) under the Select a Dataset dropdown menu. This dataset contains the surface exposed lysine proteome, however it is limited to peptides 15 AA in length. Other datasets with variable lengths will be populated soon. 
 
@@ -124,15 +126,17 @@ Result dataset containing the last scored experimental file by the ML model.
 
 # ProteoML Visualizer
 
+**[Click here for the detailed ProteoML Visualizer user guide](https://drive.google.com/file/d/1KPwRWIZAeDXu0LkyCdY3-EdVQPpJc90_/view?usp=sharing)**
+
 This application was created to visualize ProteoML predictions, or any other collection of proteins within a network of protein-protein interactions. 
 
-Currently, the only available network to map to is the HuRI interactome, however there are plans to include the STRING-db interactome shortly, as well as to allow users to upload their own. In the future, the dropdown will be editable, but for now we maintain use of the HuRI interactome. 
+Users may employ the use of the highly confident HuRI interactome as their background network, or they may choose their own. Background network files supported are .txt, .cys (cytoscape file), .gpickle, or .mat (microsoft table format). Testing was performed with .txt files containing tab-separated values resembling: Protein_1  Protein_2  Interaction_Strength. The .gpickle format was also tested. 
 
-Users select their list for download by selecting the “Click to upload a file containing Uniprot IDs” button, which will initiate the file upload dialogue. Once selected, the columns of the uploaded file (.xlsx, .csv, or .tsv are the accepted file types) will be added to the dropdown list to the right of “Column Containing Uniprot IDs”. As the title suggests, the user selects the column from their tabular data which contains the Uniprot ID alone. 
+Users select their list for download by selecting the “Click to upload a file containing Uniprot IDs” button, which will initiate the file upload dialogue. Once selected, the columns of the uploaded file (.xlsx, .csv, or .tsv are the accepted file types) will be added to the dropdown list to the right of “Column Containing Uniprot IDs”. As the title suggests, the user selects the column from their tabular data which contains human Uniprot IDs alone (anything else will be unrecognisable to ProteoML Visualizer). 
 
 After selection, the user hits “Click to initiate SAFE run” to run the SAFE analysis for the uploaded Uniprot IDs. A network diagram will appear, and the “GO Terms Mapped to Network” table will become populated with the corresponding information. The user may save these both individually.
 
-**NOTE:** Currently there is no readout of SAFE activity. This feature is under development and will be supported shortly. For now, it may seem as if the program is “frozen”, however that only signifies that SAFE is running. Leave the program to complete the run. This may take several hours, or overnight due to the complexities of the clustering networks applied..
+**NOTE:** ProteoML Visualizer will display the ongoing activity of SAFE processes in a box within the main module. You can access the window easily as processes run, however they may take a while. Leave the program to complete the run. This can take up to take several hours, or overnight due to the complexities of the clustering networks applied.
 
 **NOTE: We strongly suggest users upload positive sites of predicted enzymatic activity output by ProteoML as the data for the Visualizer.** This will help inform the accuracy of the ProteoML models. A secondary experiment may be to run SAFE analysis on the negatively predicted sites for comparison.
 
