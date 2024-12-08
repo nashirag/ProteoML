@@ -26,7 +26,7 @@ Follow the steps to install ProteoML locally, and _voila!_
 
 ##
 
-**[Click here for the detailed ProteoML user guide](https://drive.google.com/file/d/1llYnZCTImGMA2co5kgAkmhhaf64FGbVo/view?usp=sharing)**
+## [Click here for the detailed ProteoML user guide](https://drive.google.com/file/d/1llYnZCTImGMA2co5kgAkmhhaf64FGbVo/view?usp=sharing)
 
 ## 1 – Download Peptide List
 This tab allows the user to select and download files specific to a PTM of interest. 
@@ -126,7 +126,7 @@ Result dataset containing the last scored experimental file by the ML model.
 
 # ProteoML Visualizer
 
-**[Click here for the detailed ProteoML Visualizer user guide](https://drive.google.com/file/d/1KPwRWIZAeDXu0LkyCdY3-EdVQPpJc90_/view?usp=sharing)**
+## [Click here for the detailed ProteoML Visualizer user guide](https://drive.google.com/file/d/1KPwRWIZAeDXu0LkyCdY3-EdVQPpJc90_/view?usp=sharing)
 
 This application was created to visualize ProteoML predictions, or any other collection of proteins within a network of protein-protein interactions. 
 
